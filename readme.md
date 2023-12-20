@@ -35,7 +35,7 @@ I hope you enjoy my solutions and have a wonderful Advent of Code 2023!
     ```
     import os
 
-def create_folder_structure():
+    def create_folder_structure():
     base_folder = "AdventOfCode"
 
     # Create base folder if it doesn't exist
@@ -62,7 +62,7 @@ def create_folder_structure():
             day_file.write("    print('Part 1:', solve_part1())\n")
             day_file.write("    print('Part 2:', solve_part2())\n")
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     create_folder_structure()
     print("Folder structure created successfully.")
 
